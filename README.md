@@ -26,6 +26,6 @@ Built as a practice project to learn classes, headers, and basic data structures
 ## How to Build (macOS / Linux)
 
 ```bash
-g++ -std=c++17 main.cpp Manager.cpp Player.cpp Team.cpp -o your-dream-team
+g++ -std=c++17 src/*.cpp -Iinclude -o your-dream-team
 ./your-dream-team
 ```
