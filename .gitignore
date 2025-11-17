@@ -1,0 +1,20 @@
+```gitignore
+# VS Code settings
+.vscode/
+
+# Build artifacts / executables
+program
+your_dream_team
+your-dream-team
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# macOS debug symbol folders
+*.dSYM/
+
+# macOS metadata
+.DS_Store
